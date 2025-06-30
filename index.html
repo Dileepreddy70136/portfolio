@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suggu Dileep Kumar - Web Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+<img src="dileep.jpg" alt="Suggu Dileep Kumar" class="profile-picture">
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">SDK</div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#hero" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Suggu Dileep Kumar</h1>
+            <h2 class="hero-subtitle">Web Developer</h2>
+            <p class="hero-description">
+                Computer Science Engineering Student at Krishna University | Passionate about creating dynamic web experiences and modern web technologies
+            </p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="scrollToSection('projects')">View My Projects</button>
+                <button class="btn btn-outline" onclick="scrollToSection('contact')">Get In Touch</button>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/dileep-kumar-suggu-4683b32b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" target="_blank" rel="noopener noreferrer">
+  <i class="fab fa-linkedin"></i>
+</a>
+
+<a href="https://mail.google.com/mail/?view=cm&to=reddydileep262@gmail.com" class="social-link" target="_blank" rel="noopener noreferrer">
+  <i class="fas fa-envelope"></i>
+</a>
+
+
+            </div>
+        </div>
+        <div class="scroll-indicator" onclick="scrollToSection('about')">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm Suggu Dileep Kumar, a passionate web developer and Computer Science Engineering student at Krishna University. 
+                        I specialize in creating modern, responsive web applications using cutting-edge technologies.
+                    </p>
+                    <p>
+                        My expertise spans both frontend and backend development, with a focus on React, JavaScript, and modern web frameworks. 
+                        I'm dedicated to writing clean, efficient code and creating seamless user experiences.
+                    </p>
+                    <div class="skills-tags">
+                        <span class="skill-tag blue">React.js</span>
+                        <span class="skill-tag purple">JavaScript</span>
+                        <span class="skill-tag green">Node.js</span>
+                        <span class="skill-tag orange">HTML/CSS</span>
+                        <span class="skill-tag yellow">Git</span>
+                    </div>
+                </div>
+                <div class="about-cards">
+                    <div class="about-card">
+                        <div class="card-icon blue">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Education</h3>
+                            <p>B.Tech in Computer Science Engineering</p>
+                            <span>Krishna University</span>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon purple">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Expertise</h3>
+                            <p>Web Development</p>
+                            <span>Frontend</span>
+                        </div>
+                    </div>
+                    <div class="about-card">
+                        <div class="card-icon green">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <div class="card-content">
+                            <h3>Focus</h3>
+                            <p>Modern Web Applications</p>
+                            <span>Responsive & User-Friendly Design</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    A comprehensive set of technical skills acquired through my Computer Science Engineering education and hands-on projects.
+                </p>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon blue">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>Java</span>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Python</span>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>JavaScript</span>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon green">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>HTML/CSS</span>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>React</span>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span>Node.js</span>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 75%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-header">
+                        <div class="skill-icon purple">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Database Management</h3>
+                    </div>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span>MySQL</span>
+                            <div class="skill-level">
+                                <div class="skill-fill" style="width: 80%"></div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    Here are some of the projects I've worked on during my studies and personal development. Each project demonstrates different aspects of my technical skills.
+                </p>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=400&h=200&fit=crop" alt="E-Commerce Web Application">
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn btn-small">
+                                    <i class="fab fa-github"></i> Code
+                                </button>
+                                <button class="btn btn-small btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-globe project-icon"></i>
+                            <h3>E-Commerce Web Application</h3>
+                        </div>
+                        <p>A full-stack e-commerce platform built with React and Node.js, featuring user authentication, payment integration, and admin dashboard.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">React</span>
+                            <span class="tech-tag">Node.js</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Express</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=400&h=200&fit=crop" alt="Mobile Task Manager">
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn btn-small">
+                                    <i class="fab fa-github"></i> Code
+                                </button>
+                                <button class="btn btn-small btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-mobile-alt project-icon"></i>
+                            <h3>Mobile Task Manager</h3>
+                        </div>
+                        <p>A cross-platform mobile application for task management with real-time synchronization and offline capabilities.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Dart</span>
+                            <span class="tech-tag">SQLite</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&h=200&fit=crop" alt="Data Analytics Dashboard">
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn btn-small">
+                                    <i class="fab fa-github"></i> Code
+                                </button>
+                                <button class="btn btn-small btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-chart-bar project-icon"></i>
+                            <h3>Data Analytics Dashboard</h3>
+                        </div>
+                        <p>An interactive dashboard for data visualization and analytics using machine learning algorithms for predictive insights.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Django</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">D3.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=400&h=200&fit=crop" alt="University Management System">
+                        <div class="project-overlay">
+                            <div class="project-actions">
+                                <button class="btn btn-small">
+                                    <i class="fab fa-github"></i> Code
+                                </button>
+                                <button class="btn btn-small btn-primary">
+                                    <i class="fas fa-external-link-alt"></i> Demo
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-header">
+                            <i class="fas fa-university project-icon"></i>
+                            <h3>University Management System</h3>
+                        </div>
+                        <p>A comprehensive system for managing university operations including student records, course management, and academic tracking.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Java</span>
+                            <span class="tech-tag">Spring Boot</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">
+                    I'm always interested in new opportunities and collaborations. Let's connect and discuss how we can work together!
+                </p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Let's Connect</h3>
+                    <p>
+                        Whether you have a project in mind, want to discuss opportunities, or just want to say hello, 
+                        I'd love to hear from you. Feel free to reach out through any of the channels below.
+                    </p>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon blue">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>reddydileep262@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon green">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+91 7013656770</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon purple">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Andhra Pradesh, India</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contact-form">
+                        <h3>Send Message</h3>
+                        <div class="form-row">
+                            <input type="text" placeholder="your name" required>
+                            <input type="email" placeholder="E-mail" required>
+                        </div>
+                        <input type="text" placeholder="Subject" required>
+                        <textarea placeholder="Your Message" rows="5" required></textarea>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p> 2025 Suggu Dileep Kumar. Built with passion and modern web technologies.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
